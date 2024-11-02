@@ -4,12 +4,12 @@
 The code from this repository includes a implementation of the models from the [Deep Line Art Video Colorization with a Few References](https://arxiv.org/abs/2003.10685) paper.
 
 You can read more about this work in [this blog post](
-https://vincentblog.xyz/posts/line-art-colorization-using-a-deep-learning-model).
+https://vincentblog.link/posts/line-art-colorization-using-a-deep-learning-model).
 
 Here You can find a color network model which work is colorize line art images. To train this network You need 3 types of input images, color images, line art images and distance map images.
 
 You can generate part of the images using the **data_preprocessing.py** script. I recommend you to read the [blog post](
-https://vincentblog.xyz/posts/line-art-colorization-using-a-deep-learning-model) to know more about the data obtention.
+https://vincentblog.link/posts/line-art-colorization-using-a-deep-learning-model) to know more about the data obtention.
 
 You need to save color images/frames from different shots in the **final_shots** folder, the **data_preprocessing.py**  will take these images and generate line art and distance images.
 
@@ -95,12 +95,12 @@ Take into account that the model was trained using frames from the anime my litt
 ## Temporal Constrain Network and LearnableTSM
 
 In the **temporal_constrain_model.py** you can find the implementation of the Temporal Shift Module that was introduced in the paper [TSM: Temporal Shift Module for Efficient Video Understanding](https://arxiv.org/abs/1811.08383). You can also read more about this module and network in [my blog post](
-https://vincentblog.xyz/posts/line-art-colorization-using-a-deep-learning-model)
+https://vincentblog.link/posts/line-art-colorization-using-a-deep-learning-model)
 
 
 ## Electron App
 
 You can also read about an Electron app that package the model to deploy it as an app [here](
-https://vincentblog.xyz/posts/line-art-colorization-using-a-deep-learning-model) and the source code of the app [here](https://github.com/vincent1bt/Line-art-colorization-electron-app).
+https://vincentblog.link/posts/line-art-colorization-using-a-deep-learning-model) and the source code of the app [here](https://github.com/vincent1bt/Line-art-colorization-electron-app).
 
 
